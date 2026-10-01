@@ -25,9 +25,7 @@ if __name__ == "__main__":
     app.launch(
         server_name="0.0.0.0",
         server_port=port
-    )from ultralytics import YOLO
-import gradio as gr 
-
+    )
 
 model = YOLO("best.pt")
 
